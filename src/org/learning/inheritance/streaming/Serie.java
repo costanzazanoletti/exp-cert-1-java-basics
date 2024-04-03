@@ -29,4 +29,9 @@ public class Serie extends Content {
       System.out.println(getTitle());
     }
   }
+
+  @Override
+  public String toString() {
+    return "Serie { title: " + getTitle() + ", numberOfEpisodes: " + numberOfEpisodes + " }";
+  }
 }
