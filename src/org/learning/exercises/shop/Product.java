@@ -49,6 +49,10 @@ public class Product {
     this.price = price;
   }
 
+  public BigDecimal getDiscounterPrice() {
+    return getFullPrice().multiply(new BigDecimal("0.2"));
+  }
+
   // METODI
   private int generateCode() {
     // logica: genero un numero random di max 8 cifre

@@ -25,6 +25,5 @@ public class Main {
     System.out.println(myCar.model);
     System.out.println(myCar.year);
 
-
   }
 }
