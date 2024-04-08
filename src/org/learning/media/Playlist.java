@@ -7,8 +7,8 @@ public class Playlist {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     // creo un array di 5 elementi multimediali
-    // Media[] playlist = createPlaylist(scan);
-    Media[] playlist = {new Image("Portrait"), new Video("Java lesson"), new Audio("White noise")};
+    Media[] playlist = createPlaylist(scan);
+    // Media[] playlist = {new Image("Portrait"), new Video("Java lesson"), new Audio("White noise")};
     // chiedo quale elemento eseguire
     int element;
     do {
